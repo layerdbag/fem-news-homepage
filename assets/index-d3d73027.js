@@ -3,7 +3,7 @@
     <h1 class='visually-hidden'>News Homepage</h1>
     <header>
       <a href='#' class='logo'>
-        <img src='/assets/images/logo.svg' alt='brand logo' />
+        <img src='./dist/assets/images/logo.svg' alt='brand logo' />
       </a>
       <nav>
         <button class='menu-close'>
