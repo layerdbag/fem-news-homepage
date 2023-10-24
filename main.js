@@ -5,19 +5,19 @@ document.querySelector('#app').innerHTML = `
   <div class='wrapper'>
     <h1 class='visually-hidden'>News Homepage</h1>
     <header>
-      <a href='#' class='logo'>
-        <img src='./dist/assets/images/logo.svg' alt='brand logo' />
+      <a href='./#' class='logo'>
+        <img src='../assets/images/logo.svg' alt='brand logo' />
       </a>
       <nav>
         <button class='menu-close'>
           <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
         </button>
         <ul class='primary-nav'>
-          <li><a href='/'>Home</a></li>
-          <li><a href='/#new'>New</a></li>
-          <li><a href='/#popular'>Popular</a></li>
-          <li><a href='/#trending'>Trending</a></li>
-          <li><a href='/#categories'>Categories</a></li>
+          <li><a href='./'>Home</a></li>
+          <li><a href='./#new'>New</a></li>
+          <li><a href='./#popular'>Popular</a></li>
+          <li><a href='./#trending'>Trending</a></li>
+          <li><a href='./#categories'>Categories</a></li>
         </ul>
       </nav>
 
