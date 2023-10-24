@@ -1,9 +1,9 @@
-(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const l of a.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function t(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(e){if(e.ep)return;e.ep=!0;const a=t(e);fetch(e.href,a)}})();function o(s){const i=document.querySelector(".menu-open"),t=document.querySelector(".menu-close");i.addEventListener("click",()=>{s.classList.add("open-nav")}),t.addEventListener("click",()=>{s.classList.remove("open-nav")})}document.querySelector("#app").innerHTML=`
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))r(e);new MutationObserver(e=>{for(const a of e)if(a.type==="childList")for(const l of a.addedNodes)l.tagName==="LINK"&&l.rel==="modulepreload"&&r(l)}).observe(document,{childList:!0,subtree:!0});function t(e){const a={};return e.integrity&&(a.integrity=e.integrity),e.referrerPolicy&&(a.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?a.credentials="include":e.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function r(e){if(e.ep)return;e.ep=!0;const a=t(e);fetch(e.href,a)}})();function o(i){const s=document.querySelector(".menu-open"),t=document.querySelector(".menu-close");s.addEventListener("click",()=>{i.classList.add("open-nav")}),t.addEventListener("click",()=>{i.classList.remove("open-nav")})}document.querySelector("#app").innerHTML=`
   <div class='wrapper'>
     <h1 class='visually-hidden'>News Homepage</h1>
     <header>
       <a href='./#' class='logo'>
-        <img src='public/images/logo.svg' alt='brand logo' />
+        <img src='images/logo.svg' alt='brand logo' />
       </a>
       <nav>
         <button class='menu-close'>
@@ -27,9 +27,9 @@
         <article>
           <div class='main-media'>
             <picture>
-              <source srcset="public/images/image-web-3-mobile.jpg" 
+              <source srcset="images/image-web-3-mobile.jpg" 
               media="(max-width: 43.5em)">
-              <img src="public/images/image-web-3-desktop.jpg" 
+              <img src="images/image-web-3-desktop.jpg" 
               alt="" 
               class='main-media__img'
              >
@@ -76,7 +76,7 @@
         <ul class='sub-media'>
           <li>
             <div class='media-box'>
-              <img src='public/images/image-retro-pcs.jpg' alt=''
+              <img src='images/image-retro-pcs.jpg' alt=''
               class='sub-media__img' />
               <div class='sub-box'>
               <h2 class='sub-media__title'>01</h2>
@@ -87,7 +87,7 @@
           </li>
           <li>
           <div class='media-box'>
-            <img src='public/images/image-top-laptops.jpg' alt=''
+            <img src='images/image-top-laptops.jpg' alt=''
             class='sub-media__img' />
             <div class='sub-box'>
               <h2 class='sub-media__title'>02</h2>
@@ -98,7 +98,7 @@
           </li>
           <li>
           <div class='media-box'>
-            <img src='public/images/image-gaming-growth.jpg' alt=''
+            <img src='images/image-gaming-growth.jpg' alt=''
             class='sub-media__img' />
             <div class='sub-box'>
               <h2 class='sub-media__title'>03</h2>
