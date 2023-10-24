@@ -15,8 +15,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![News homepage Desktop](https://github.com/layerdbag/fems-news-homepage/blob/main/assets/images/desktop0.jpeg)
+![News homepage Desktop](https://github.com/layerdbag/fem-news-homepage/blob/main/assets/images/desktop0.jpeg)
 ![News homepage Mobile](https://github.com/layerdbag/fems-news-homepage/blob/main/assets/images/mobile0.jpeg)
 
 ### Links
