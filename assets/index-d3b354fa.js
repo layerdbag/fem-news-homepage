@@ -3,7 +3,7 @@
     <h1 class='visually-hidden'>News Homepage</h1>
     <header>
       <a href='#' class='logo'>
-        <img src='./public/assets/images/logo.svg' alt='brand logo' />
+        <img src='../public/assets/images/logo.svg' alt='brand logo' />
       </a>
       <nav>
         <button class='menu-close'>
@@ -27,9 +27,9 @@
         <article>
           <div class='main-media'>
             <picture>
-              <source srcset=".public/assets/images/image-web-3-mobile.jpg" 
+              <source srcset="../public/assets/images/image-web-3-mobile.jpg" 
               media="(max-width: 43.5em)">
-              <img src="./assets/images/image-web-3-desktop.jpg" 
+              <img src="../public/assets/images/image-web-3-desktop.jpg" 
               alt="" 
               class='main-media__img'
              >
@@ -76,7 +76,7 @@
         <ul class='sub-media'>
           <li>
             <div class='media-box'>
-              <img src='./public/assets/images/image-retro-pcs.jpg' alt=''
+              <img src='../public/assets/images/image-retro-pcs.jpg' alt=''
               class='sub-media__img' />
               <div class='sub-box'>
               <h2 class='sub-media__title'>01</h2>
@@ -87,7 +87,7 @@
           </li>
           <li>
           <div class='media-box'>
-            <img src='./public/assets/images/image-top-laptops.jpg' alt=''
+            <img src='../public/assets/images/image-top-laptops.jpg' alt=''
             class='sub-media__img' />
             <div class='sub-box'>
               <h2 class='sub-media__title'>02</h2>
@@ -98,7 +98,7 @@
           </li>
           <li>
           <div class='media-box'>
-            <img src='./public/assets/images/image-gaming-growth.jpg' alt=''
+            <img src='../public/assets/images/image-gaming-growth.jpg' alt=''
             class='sub-media__img' />
             <div class='sub-box'>
               <h2 class='sub-media__title'>03</h2>
